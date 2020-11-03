@@ -32,17 +32,18 @@ module.exports.collegeList=async function(req,res){
 }
 
 module.exports.collegeByState=async function(req,res){
-    let college=await College.find({state:req.body.state});
-    let student= await Student.find({collegeId:req.body.collegeId});
-    if(college){
+    let state=req.body.state.toUpperCase();
+    let college=await College.find({state:state});
+    // let student= await Student.find({collegeId:req.body.collegeId});
+    if(college.length>0){
         return res.json(200, {
             message: "Here are the college details!",
             colleges:college,
-            students:student
+            
         });
         
     }
     return res.json(422, {
-        message: "Invalid college name"
+        message: "Sorry! No college found"
     });
 }

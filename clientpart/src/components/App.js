@@ -14,8 +14,8 @@ class App extends React.Component {
       stateData:[],
       courseData:[],
       searchResult:{},
-      isCharts:false,
-      isSearch:true,
+      isCharts:true,
+      isSearch:false,
       isList:false,
       isSearchResult:false
     };

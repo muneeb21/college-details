@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/college-details/static/css/main.ead102d6.chunk.css",
+    "main.js": "/college-details/static/js/main.e91b6780.chunk.js",
+    "main.js.map": "/college-details/static/js/main.e91b6780.chunk.js.map",
+    "runtime-main.js": "/college-details/static/js/runtime-main.ea3d1b7f.js",
+    "runtime-main.js.map": "/college-details/static/js/runtime-main.ea3d1b7f.js.map",
+    "static/js/2.284282a7.chunk.js": "/college-details/static/js/2.284282a7.chunk.js",
+    "static/js/2.284282a7.chunk.js.map": "/college-details/static/js/2.284282a7.chunk.js.map",
+    "index.html": "/college-details/index.html",
+    "static/css/main.ead102d6.chunk.css.map": "/college-details/static/css/main.ead102d6.chunk.css.map",
+    "static/js/2.284282a7.chunk.js.LICENSE.txt": "/college-details/static/js/2.284282a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea3d1b7f.js",
+    "static/js/2.284282a7.chunk.js",
+    "static/css/main.ead102d6.chunk.css",
+    "static/js/main.e91b6780.chunk.js"
+  ]
+}

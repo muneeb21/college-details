@@ -1,0 +1,191 @@
+.App{
+    width:160vh;
+    /* height:90vh; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    height: 20vh;
+    
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(69, 81, 94);
+    font-weight: bolder;
+    font-family: 'Gill Sans';
+}
+.tabs{
+    height: 10vh;
+    width:100%;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid slategray;
+}
+.tab{
+    height:45%;
+    margin:2px;
+    width: 7.5%;
+    /* border:1px solid black; */
+    background-color:  rgb(37, 148, 223);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: .9rem;
+    font-weight: bolder;
+    
+
+}
+
+h2{
+    text-align: center;
+    color:rgb(69, 81, 94);
+    font-weight: bolder;
+    font-family: 'Gill Sans';
+}
+
+.charts{
+   
+    width:80%;
+    height:140vh;
+     
+    
+}
+.chart{
+    margin-top: 2rem;
+    /* border-top: 2px solid slategray;    */
+}
+
+.list{
+    width:90%;
+    /* border:1px solid red; */
+    background-color: rgb(253, 251, 251);
+    margin-top: 2rem;
+}
+
+.collegecard{
+    display: flex;
+    flex-direction: row;
+    border-top:.8px solid rgb(185, 195, 206);      
+    height: 10vh;
+   
+}
+
+.collegename{
+    width:15%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.noOfstudents{
+    width:15%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collegestate{
+    width:18%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yearfounded{
+    width:15%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collegecourse{
+    width:37%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listtitles{
+    font-size: 1.2rem;
+    color:rgb(69, 81, 94);
+    font-weight: bolder;
+}
+
+.collegecard{
+    font-size: .9rem;
+    color:rgb(69, 81, 94);
+}
+
+.collegecard:hover{
+    background-color:rgb(210, 217, 224) ;
+}
+
+.search{
+    width:90%;
+    
+    /* background-color: rgb(253, 251, 251); */
+    margin-top: 2rem;   
+}
+
+.form{
+    height:12vh;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.mainform{
+    height:100%;
+    
+    width:80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    height:40%;
+    width: 40%;
+    margin:1rem;
+    border-radius: 20px;
+    outline: none;
+    background-color:rgb(205, 210, 214) ;
+    padding: .5rem;
+    margin-left:8rem;
+}
+
+.submit{
+    height:50%;
+    width:13%;
+    color: white;
+    font-size: .9rem;
+    font-weight: 700;
+    background-color:rgb(37, 148, 223) ;
+    border: none;
+}
+.isSearchResult{
+    width: 100%;
+    margin-top:4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchResult{
+    width:80%;
+    background-color: white;
+} 

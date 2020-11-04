@@ -3,7 +3,7 @@ const Student=require('../models/student');
 
 module.exports.collegeDetails=async function(req,res){
  
-    let college=await College.find({name:req.body.name});
+    let college=await College.findOne({name:req.body.name});
     if(college){
         return res.json(200, {
             message: "Here are the college details!",
@@ -22,7 +22,13 @@ module.exports.collegeList=async function(req,res){
     if(college){
         return res.json(200, {
             message: "Here are the college details!",
-            data:college
+            data:{
+                collegeList:college,
+                stateList:["KARNATAKA","MAHARASHTRA","DELHI","UP"],
+                stateData:[10,5,7,3],
+                courseList:["Computer Science", "IT", "Electronics", "Electrical"],
+                courseData:[7,5,10,4]
+            }
         });
         
     }

@@ -22,11 +22,11 @@ function Chart (props) {
   const options = {
     title: {
       display: true,
-      text: 'Doughnut Chart'
+      text: props.label
     }
   }
 
   return <Doughnut data={data} options={options} />
 }
 
-export default Chart
+export default Chart;

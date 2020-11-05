@@ -26,7 +26,7 @@ Link =>> https://muneeb21.github.io/college-details/ <br/>
 > Run npm start<br/>
 
 **key points**
-- Add CORS extension in chrome<br/>
+- Add CORS extension in chrome and turn it on link =>> https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf<br/>
 
 **Model Schemas**
 > COLLEGE<br/>

@@ -22,11 +22,11 @@ Link =>> https://muneeb21.github.io/college-details/ <br/>
 
 **Setup the Webservice**
 > Run npm init<br/>
-> Install necessary dependencies in packagejson file<br/>
+> Install necessary dependencies in package.json file<br/>
 > Run npm start<br/>
 
 **key points**
-- Add CORS extension in chrome and turn it on link =>> https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf<br/>
+- Add CORS extension in chrome and turn it on. Link =>> https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf<br/>
 
 **Model Schemas**
 > COLLEGE<br/>
@@ -50,6 +50,6 @@ Link =>> https://muneeb21.github.io/college-details/ <br/>
 
 **Screenshots**
 
-![alt text](https://github.com/muneeb21/loan-management-system/blob/master/screenshots/ss2.png?raw=true)<br/>
+![alt text](https://github.com/muneeb21/college-details/blob/master/clientpart/screenshots/ss1.png?raw=true)<br/>
 
-![alt text](https://github.com/muneeb21/loan-management-system/blob/master/screenshots/ss2.png?raw=true)<br/>
+![alt text](https://github.com/muneeb21/college-details/blob/master/clientpart/screenshots/ss2.png?raw=true)<br/>

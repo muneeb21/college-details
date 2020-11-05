@@ -1,5 +1,6 @@
 # College Details FullStack APP
-A FullStack app that shows college details and its Courses.
+A FullStack app that shows college details and its Courses.<br/>
+Link =>> https://muneeb21.github.io/college-details/ <br/>
 
 **Theme of the APP**
 - There are two parts of the App<br/>
@@ -15,6 +16,17 @@ A FullStack app that shows college details and its Courses.
 
 **Key modules used**<br>
   React-chartjs-2, chart.js   
+
+**Deployed Client part**
+- Link =>> https://muneeb21.github.io/college-details/ <br/>
+
+**Setup the Webservice**
+> Run npm init<br/>
+> Install necessary dependencies in packagejson file<br/>
+> Run npm start<br/>
+
+**key points**
+- Add CORS extension in chrome<br/>
 
 **Model Schemas**
 > COLLEGE<br/>
@@ -36,6 +48,8 @@ A FullStack app that shows college details and its Courses.
 - List all the colleges<br/>
 - Show Student details of a college<br/>
 
+**Screenshots**
 
+![alt text](https://github.com/muneeb21/loan-management-system/blob/master/screenshots/ss2.png?raw=true)<br/>
 
-
+![alt text](https://github.com/muneeb21/loan-management-system/blob/master/screenshots/ss2.png?raw=true)<br/>
